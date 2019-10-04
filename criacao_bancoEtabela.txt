@@ -1,0 +1,21 @@
+create database testeInvasao;
+
+use testeInvasao;
+
+
+
+create table usuarios(
+	
+	id_usuario int auto_increment primary key,
+    
+	nome varchar(100) not null,
+    
+	sobreNome varchar(100) not null,
+    
+	senha varchar(32) not null,
+    
+	email varchar(100) not null,
+    
+	usuario varchar(50) not null
+
+);
